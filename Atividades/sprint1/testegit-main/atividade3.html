@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    
+</head>
+<body>
+    <script>
+        function pulaLinha(){
+            document.write("<br>")
+        }
+     alert("***Bem-Vindo ao COMEX***");    
+    document.write ("<h1> >>COMEX << </h1>");
+    document.write ("<head> <h2> ::Lista de Clientes </h2> </head>");
+    document.write("<hr>");
+
+ 
+    document.write ("<h3> - Código:1 </h3>");
+    document.write ("<p>Nome: Fulano</p>");
+    document.write ("<p>Mês de Aniversário: Fevereiro</p>");
+    document.write ("<p>Ano de Nascimento: 1980</p>");
+    document.write("<hr>");
+
+    document.write ("<h3> - Código:2 </h3>");
+    document.write ("<p>Nome: Beltrano</p>");
+    document.write ("<p>Mês de Aniversário: Maio</p>");
+    document.write ("<p>Ano de Nascimento: 1981</p>");
+    document.write("<hr>");
+
+    document.write ("<h3> - Código:3 </h3>");
+    document.write ("<p>Nome: Sicrano</p>");
+    document.write ("<p>Mês de Aniversário: Novembro</p>");
+    document.write ("<p>Ano de Nascimento: 1984</p>");
+    document.write ("<hr>");
+
+    document.write ("<head>***Estatística*** </head>");
+
+    var ano = 2023;
+    var idade1 = (ano - 1980);
+    var idade2 = (ano - 1981);
+    var idade3 = (ano - 1984);
+    var soma = (idade1 + idade2 + idade3);
+    var media = (soma/3);
+
+    document.write ("<p>A soma das idades é:" + (soma) + "</p>");
+    document.write ("<p> A média das idades é:" + (media.toFixed(0))+ "</p>");
+    
+    document.write("<hr>");
+    document.write("<h3>.:: Alura LEVEL UP ::.</h3>");
+    </script>
+</body>
+</html>
